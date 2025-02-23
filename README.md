@@ -2,7 +2,7 @@
 
 ## Descrizione e obiettivo del progetto
 
-Questo progetto è stato sviluppato durante il Master in Data Science di Profession AI. L'azienda fittizia Banking Intelligence vuole sviluppare un modello di machine learning supervisionato per prevedere i comportamenti futuri dei propri clienti, basandosi sui dati transazionali e sulle caratteristiche del possesso di prodotti. Lo scopo del progetto è quindi creare, utilizzando il linguaggio **SQL**, una **tabella denormalizzata di feature** per il training di modelli di machine learning, arricchendo i dati dei clienti con vari indicatori calcolati a partire dalle loro transazioni e dai conti posseduti. La tabella finale sarà riferita all'ID cliente e conterrà informazioni sia di tipo quantitativo che qualitativo.
+Questo progetto è stato sviluppato durante il Master in Data Science di ProfessionAI. L'azienda fittizia Banking Intelligence vuole sviluppare un modello di machine learning supervisionato per prevedere i comportamenti futuri dei propri clienti, basandosi sui dati transazionali e sulle caratteristiche del possesso di prodotti. Lo scopo del progetto è quindi creare, utilizzando il linguaggio **SQL**, una **tabella denormalizzata di feature** per il training di modelli di machine learning, arricchendo i dati dei clienti con vari indicatori calcolati a partire dalle loro transazioni e dai conti posseduti. La tabella finale sarà riferita all'ID cliente e conterrà informazioni sia di tipo quantitativo che qualitativo.
 
 ### Valore aggiunto
 La tabella denormalizzata permetterà di estrarre feature comportamentali avanzate per l'addestramento di modelli di machine learning supervisionato, fornendo numerosi vantaggi per l'azienda come: predizione del comportamento dei clienti, riduzione del tasso di abbandono, miglioramento della gestione del rischio, personalizzazione delle offerte e prevenzione delle frodi.
@@ -20,7 +20,7 @@ Il database utilizzato `banca`, contenuto nel file `db_bancario.sql` presente ne
 Gli indicatori vengono calcolati per ogni singolo cliente (riferiti a `id_cliente`) e includono:
 
   - **Indicatori di base**:
-    - Età del cliente (da tabella cliente).
+    - Età del cliente.
   
   - **Indicatori sulle transazioni**:
     - Numero di transazioni in uscita su tutti i conti.
